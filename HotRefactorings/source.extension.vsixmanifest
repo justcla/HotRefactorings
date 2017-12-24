@@ -4,6 +4,7 @@
         <Identity Id="HotRefactorings.992bbdc6-a849-4156-b7ab-6deb63e34d2a" Version="1.0" Language="en-US" Publisher="Justin Clareburt" />
         <DisplayName>Hot Refactorings</DisplayName>
         <Description xml:space="preserve">Collection of C# refactorings for Visual Studio</Description>
+        <License>https://github.com/justcla/HotRefactorings/blob/master/LICENSE</License>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0,15.0]" />
@@ -12,7 +13,6 @@
         <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
     </Dependencies>
     <Assets>
-        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
         <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" />
     </Assets>
     <Prerequisites>
