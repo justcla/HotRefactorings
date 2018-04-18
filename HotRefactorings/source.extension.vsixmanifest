@@ -4,7 +4,9 @@
         <Identity Id="HotRefactorings.992bbdc6-a849-4156-b7ab-6deb63e34d2a" Version="1.0" Language="en-US" Publisher="Justin Clareburt" />
         <DisplayName>Hot Refactorings</DisplayName>
         <Description xml:space="preserve">Collection of C# refactorings for Visual Studio</Description>
+        <MoreInfo>https://marketplace.visualstudio.com/items?itemName=JustinClareburtMSFT.HotRefactorings</MoreInfo>
         <License>License.rtf</License>
+        <Icon>Resources\HotRefactorings_Icon_128x.png</Icon>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0,15.0]" />
