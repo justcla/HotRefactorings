@@ -195,9 +195,10 @@
   <ItemGroup>
     <Content Include="Resources\HotRefactorings_Icon_key_128x.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\HotRefactorings_Icon_128x.png">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Resources\HotRefactorings_Icon_128x.png" />
     <Content Include="Resources\HotRefactorings_Icon_box_128x.png" />
     <None Include="app.config" />
     <Content Include="License.rtf">
